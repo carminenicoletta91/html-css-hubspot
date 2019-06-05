@@ -1,0 +1,79 @@
+/*settaggi generali*/
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:black;
+}
+.center{
+  height:100%;
+  width:80%;
+  margin:0 auto;
+}
+/*fine settaggi generali*/
+/*settaggi header*/
+.headergeneral{
+  height:450px;
+}
+.header{
+  height:100%;
+  position:relative;
+  background-color:green;
+}
+.menu1{
+  height:10%;
+  background-color:blue;
+}
+.menu11{
+  background-color:gray;
+}
+.menu2{
+  height:10%;
+  background-color:white;
+}
+.menu22{
+  background-color:black;
+}
+
+/*fine settaggi header*/
+/*inizio settaggi delle sezioni*/
+.contenitore{
+  height:600px;
+  background-color:red;
+}
+.sezionesingola{
+ height:25%;
+ background-color:yellow;
+}
+.sezionea2-1{
+  height:15%;
+  background-color:pink;
+}
+.sezionerow{
+  height:60%;
+  background-color:black;
+}
+.singola{
+  height:300px;
+  background-color:green;
+}
+.sezionea2{
+  height:500px;
+  background-color:white;
+}
+.sezione2top{
+  height:50%;
+  background-color:brown;
+}
+.sezione2bottom{
+  height:50%;
+  background-color:purple; 
+}
+/*fine settaggi sezioni principali*/
+/*inizio settaggi footer*/
+footer{
+  height:300px;
+  background-color:blue;
+}
+/*fine settaggi footer*/
