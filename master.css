@@ -37,20 +37,51 @@ background-size:cover;
 /*fine settaggi header*/
 /*inizio settaggi delle sezioni*/
 .contenitore{
-  height:650px;
-  background-color:red;
+  height:900px;
+  background-color:#dfe6f2;
 }
 .sezionesingola{
- height:25%;
+ height:35%;
  background-color:yellow;
 }
-.sezionea2-1{
-  height:15%;
+.sezione2{
+  height:20%;
   background-color:pink;
 }
+.sezione2left{
+ float:left;
+ height:100%;
+ width:30%;
+ background-color:red;
+}
+.sezione2right{
+float: left;
+height:100%;
+width:70%;
+background-color:white;
+}
+.sezione2::after{
+ content:"";
+ display:table;
+ clear:both;
+}
 .sezionerow{
-  height:60%;
+  height:45%;
   background-color:black;
+}
+.row{
+  height:100%;
+  width:calc(100% / 3);
+  float:left;
+}
+.left{
+  background-color:blue;
+}
+.centro{
+  background-color:yellow;
+}
+.right{
+  background-color:brown;
 }
 .singola{
   height:300px;
