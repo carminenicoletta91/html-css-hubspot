@@ -13,33 +13,31 @@ body{
 }
 /*fine settaggi generali*/
 /*settaggi header*/
-.headergeneral{
-  height:450px;
-}
 .header{
-  height:100%;
-  position:relative;
-  background-color:green;
+  height:600px;
 }
 .menu1{
   height:10%;
-  background-color:blue;
-}
-.menu11{
-  background-color:gray;
+  background-color:rgb(15, 61, 85);
 }
 .menu2{
   height:10%;
-  background-color:white;
+  background-color:rgb(169, 169, 169);
 }
-.menu22{
-  background-color:black;
+.menu3{
+ height:10%;
+ background-color: white;
+}
+.bloccoprincipale{
+ height:70%;
+background-image:url("sfondo.png");
+background-size:cover;
 }
 
 /*fine settaggi header*/
 /*inizio settaggi delle sezioni*/
 .contenitore{
-  height:600px;
+  height:650px;
   background-color:red;
 }
 .sezionesingola{
@@ -68,7 +66,7 @@ body{
 }
 .sezione2bottom{
   height:50%;
-  background-color:purple; 
+  background-color:purple;
 }
 /*fine settaggi sezioni principali*/
 /*inizio settaggi footer*/
