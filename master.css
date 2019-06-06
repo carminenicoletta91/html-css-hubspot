@@ -7,7 +7,7 @@ body{
   background-color:black;
 }
 .contenitorebody{
-  height:4000px;
+  /*height:4000px;*/
 }
 .center{
   height:100%;
@@ -17,7 +17,7 @@ body{
 /*fine settaggi generali*/
 /*settaggi header*/
 header{
-  height:20%;
+  height:700px;
 }
 .menu1{
   height:7%;
@@ -39,51 +39,47 @@ header{
 .sezionicontenuti{
   height:65%;
 }
-.bloccoprincipale{
-  height:50%;
-  background-color:rgb(240, 245, 250);
 }
 .sezionetop{
-  height:25%;
+  height:800px;
 }
-.sezionecentro{
-  height:28%;
-  margin-bottom:2%;
+.singolacolonna1{
+  height:150px;
   background-color:white;
+  border:1px solid black;
+  box-sizing: border-box;
 }
-.sezionecentroleft{
-  float:left;
-  height:100%;
-  width:30%;
-}
-.sezionecentroright{
-  float: left;
-  height:100%;
-  width:70%;
-}
-.sezionecentro::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-.sezionerowbottom{
-  height:43%;
-
-  margin-bottom:2%;
-}
-.row{
-  height:100%;
-  width:calc(90% / 3);
-  float:left;
+.sezionea2colonne1{
+  height:300px;
   background-color:white;
   border:solid 1px black;
   box-sizing: border-box;
 }
-.left{
-  margin-right:5%;
+.sezioneleft{
+  float:left;
+  height:100%;
+  width:30%;
 }
-.centro{
-  margin-right:5%;
+.sezioneright{
+  float: left;
+  height:100%;
+  width:70%;
+}
+.sezionea2colonne1::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.sezionerow{
+  height:350px;
+}
+.row{
+  height:100%;
+  width:calc(100% / 3);
+  float:left;
+  background-color:white;
+  border:solid 1px black;
+  box-sizing: border-box;
 }
 
 .sezionerow::after{
@@ -91,24 +87,36 @@ header{
   display: table;
   clear: both;
 }
-.singolacolonna{
-  height:25%;
+.singolacolonna2{
+  height:400px;
   background-color:rgb(0, 175, 178);
 }
-.sezionea2colonne{
-  height:30%;
+.sezionea2colonne2{
+  height:400px;
   background-color:white;
+}
+.colonne2{
+height:100%;
 }
 .sezionea2colonnetop{
   height:50%;
+  border:solid 1px black;
+  box-sizing: border-box;
 }
 .sezionea2colonnebottom{
   height:50%;
+  border:solid 1px black;
+  box-sizing: border-box;
+}
+.colonne2::after{
+  content:"";
+  display:table;
+  clear: both;
 }
 /*fine settaggi sezioni principali*/
 /*inizio settaggi footer*/
 footer{
-  height:15%;
+  height:700px;
   background-color:rgb(51, 71, 91);
 }
 /*fine settaggi footer*/
