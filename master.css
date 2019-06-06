@@ -37,14 +37,14 @@ header{
   background-image:url("sfondo.png");
   background-size:cover;
 }
-#seth1{
+.seth1{
 position: absolute;
 color:white;
 font-size:3em;
 top:15%;
 
 }
-#setp{
+.setp{
 position: absolute;
 color:white;
 top:40%;
@@ -72,13 +72,13 @@ width:50%;
 .color{
   background-color:#dfe6f2;
 }
-#setimage{
-  position: absolute;
-  background-size:cover;
-  height:150px;
-  width:200px;
-  left:50%;
-  top:30%;
+.setimage{
+ position: absolute;
+ background-size: cover;
+ height:100px;
+ width:120px;
+ top:30%;
+ left:40%;
   transform: translate(-50%,-50%);
 }
 #seth2first{
@@ -119,14 +119,8 @@ width:50%;
   height:100%;
   width:30%;
 }
-.sezioneleft img{
-  position: absolute;
-  background-size: cover;
- width:120px;
- top:10%;
- left:20%;
-}
-#setbutton2{
+
+.setbutton2{
   position: absolute;
   height:40px;
   width:130px;
@@ -154,18 +148,76 @@ box-sizing: border-box;
   background-color:rgb(255, 122, 89);
 }
  .tree{
-  height:450px;
+  height:600px;
+  margin-bottom:30px;
  }
-.two{
- height:400px;
-}
+
 .row{
   height:100%;
-  width:calc(100% / 3);
+  width:calc(90% / 3);
   float:left;
   background-color:white;
 }
-
+.margine{
+  margin-right:5%;
+}
+.subdividedtop{
+ height:50%;
+ position: relative;
+}
+.subdividedtop img{
+ left:50%;
+}
+.hr{
+  position:absolute;
+ border:solid 1px gray;
+ width:89.5%;
+ margin-right:5%;
+ margin-left:5%;
+bottom:0;
+}
+.seth3section3{
+  position:absolute;
+  font-size:0.8em;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.setpesection3{
+  position:absolute;
+  font-size:0.8em;
+  width:90%;
+  top:80%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.subdividedbottom{
+  position:relative;
+  height:50%;
+}
+.settitlebottom{
+  position: absolute;
+ font-size:0.7em;
+  top:10%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+ul li{
+position: absolute;
+list-style: none;
+top:30%;
+left:35%;
+transform: translate(-50%,-50%);
+}
+.li2{
+top:50%;
+}
+.li3{
+top:70%;
+}
+.subdividedbottom .setbutton2{
+ top:80%;
+}
 .sezionerow::after{
   content: "";
   display: table;
@@ -176,11 +228,17 @@ box-sizing: border-box;
   background-color:rgb(0, 175, 178);
 }
 .sezionea2colonne2{
-  height:400px;
+  height:600px;
   background-color:white;
+}
+.two{
+  height:100%;
 }
 .colonne2{
 height:100%;
+}
+.setimagesecfinale{
+
 }
 .sezionea2colonnetop{
   height:50%;
@@ -188,11 +246,28 @@ height:100%;
   box-sizing: border-box;
 }
 .sezionea2colonnebottom{
+position: relative;
   height:50%;
-  border:solid 1px black;
-  box-sizing: border-box;
 }
+.seth12{
+ position:absolute;
+  color:black;
+  font-size:2em;
+  top:10%;
 
+}
+.mod{
+background-color:rgb(255, 122, 89);
+color:white;
+
+}
+.setprow2{
+  position: absolute;
+  font-size:1em;
+  max-width:50%;
+  top:30%;
+
+}
 /*fine settaggi sezioni principali*/
 /*inizio settaggi footer*/
 footer{
