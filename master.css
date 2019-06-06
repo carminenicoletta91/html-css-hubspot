@@ -32,9 +32,33 @@ header{
   background-color:white;
 }
 .sezioneprincipaleheader{
+  position: relative;
   height:73%;
   background-image:url("sfondo.png");
   background-size:cover;
+}
+#seth1{
+position: absolute;
+color:white;
+font-size:3em;
+top:15%;
+
+}
+#setp{
+position: absolute;
+color:white;
+top:40%;
+width:50%;
+}
+.bottoneprincipale{
+  height:50px;
+  width:150px;
+  font-size:1em;
+  font-family:fantasy;
+  color:	#778899;
+  position:absolute;
+  top:60%;
+  background-color:#dfe6f2;
 }
 .sezionicontenuti{
   height:65%;
@@ -46,14 +70,47 @@ header{
 .color{
   background-color:#dfe6f2;
 }
-.singolacolonna1{
+#setimage{
+  position: absolute;
+  background-size:cover;
   height:150px;
+  width:200px;
+  left:50%;
+  top:30%;
+  transform: translate(-50%,-50%);
+}
+#seth2first{
+  position: absolute;
+  left:50%;
+  top:50%;
+  color:black;
+  font-size:1.5em;
+  transform: translate(-50%,-50%);
+}
+.singolacolonna1{
+  position: relative;
+  height:400px;
 border-color: red;
   border:1px solid black;
   box-sizing: border-box;
 }
+#setp2{
+  position: absolute;
+  max width:100%;
+  font-size:0.9em;
+  top:70%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+#setp3{
+  position: absolute;
+  font-size:0.9em;
+  top:80%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
 .twoone{
-  height:300px;
+  height:200px;
   background-color:white;
   border:solid 1px black;
   box-sizing: border-box;
@@ -69,7 +126,7 @@ border-color: red;
   width:70%;
 }
 .sezionerow{
-  height:350px;
+  height:450px;
   border-color: green;
 }
 .two{
